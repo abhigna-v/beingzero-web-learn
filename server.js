@@ -1,8 +1,8 @@
 const express=require('express');
 const app=express();
 app.get("/",function(req,res){
-    let indexFilepath=__dirname+"/index.html";
-    res.sendFile(indexFilepath);
+    //let indexFilepath=__dirname+"/index.html";
+    res.send("Hey! welcome to my site");
 });
 app.get("/home",function(req,res){
     res.send("home called");
