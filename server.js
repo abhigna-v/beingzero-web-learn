@@ -6,7 +6,7 @@ app.get("/",function(req,res){
 });
 app.get("/home",function(req,res){
     res.send("home called");
-});
+});//
 app.get("/login",function(req,res){
     res.send("login called");
 });
