@@ -1,5 +1,7 @@
 const express=require('express');
 const app=express();
+app.use(express.static(__dirname+"/css/styles.css"));
+app.use(express.static(__dirname+"/Js/site.js"));
 app.get("/",function(req,res){
     //let indexFilepath=__dirname+"/index.html";
     res.send("Hey! welcome to my site");  
