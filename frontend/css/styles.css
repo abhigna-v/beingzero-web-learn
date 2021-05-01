@@ -1,0 +1,71 @@
+body{
+    border: 3px solid #000;
+    padding : 30px;
+    margin:70px;
+    line-height: 1.5;
+    background-color:honeydew;
+      }
+  hr{
+    border-style: none;
+    border-top-style:groove;
+    border-color:gray;
+    border-width: 3px;
+    width: 88%;
+    margin: 40px auto;
+  }
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+  
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 7px;
+  }
+  .ahref
+  {
+    font-size: 19px;
+    color:grey;
+    line-height: 7px;
+    display: inline-block;
+    text-size-adjust: 3px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1px;
+  }
+  .contact
+  {
+    padding: 70 px;
+    margin: 70px;
+    color:darkslategray;
+    align-items: center;
+  }
+  h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    color:midnightblue;
+  }
+  a {
+    font-size: 19px;
+    color: crimson;
+    line-height: 7px;
+    display: inline-block;
+    text-size-adjust: 3px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1px;
+  }
+  a:hover {
+    color:red;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  .segment
+  {
+    padding-left: 3%;
+    margin-left: 3%;
+  }
+  .img{
+    padding-left: 2%;
+    margin-left: 2%;
+  }
