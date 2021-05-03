@@ -5,6 +5,10 @@ app.get("/",function(req,res)
 {
     res.send("welcome to my site!");
 });
+app.get("/search",function(req,res)
+{
+    res.redirect('https://www.google.com/');
+});
 app.get("/login",function(req,res)
 {
     res.send("login successful");
