@@ -5,7 +5,7 @@ app.get("/",function(req,res)
 {
     res.send("Welcome to my site!");
 });
-app.get("/googlePage",function(req,res)
+app.get("/google",function(req,res)
 {
     fp=__dirname+"/frontend/html/googlePage.html"
     res.sendFile(fp);
