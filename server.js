@@ -3,6 +3,10 @@ const app=express();
 app.use(express.static(__dirname+"/frontend"));
 app.get("/",function(req,res)
 {
+    res.send("Welcome to my site!");
+});
+app.get("/googlePage",function(req,res)
+{
     fp=__dirname+"/frontend/html/googlePage.html"
     res.sendFile(fp);
 });
