@@ -1,0 +1,13 @@
+.aligncenter {
+    text-align: center;
+}
+input[type=text] {
+    width: 500px;
+    height: 30px;
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 0.9s ease-in-out;
+  }
+  input[type=button] {
+    width: 100px;
+    height: 30px;
+  }

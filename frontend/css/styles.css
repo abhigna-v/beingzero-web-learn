@@ -5,6 +5,9 @@ body{
     line-height: 1.5;
     background-color:honeydew;
       }
+      .aligncenter {
+        text-align: center;
+    }
   hr{
     border-style: none;
     border-top-style:groove;
