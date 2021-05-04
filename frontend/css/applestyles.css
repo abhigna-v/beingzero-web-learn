@@ -1,0 +1,47 @@
+.navbar1
+{
+    color: white;
+    height: 50px;
+    background-color: rgb(63, 56, 56);
+    width: 100%;
+}
+.text1
+{
+    text-align: center;
+}
+.navbar-header
+{
+    padding-left: 150px;
+    padding-right: 100px;
+}
+a{
+    padding:10px;
+}
+.activeele1
+{
+    padding-left:30px;
+}
+.text345
+{
+    padding-top: 20px;
+    color:gray;
+}
+.img11
+{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    height: 750px;
+    color: white;
+    width:100%;
+}
+.img12
+{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#fbfbfd;
+    text-align: center;
+    height: 450px;
+    color: black;
+    width:100%;
+}

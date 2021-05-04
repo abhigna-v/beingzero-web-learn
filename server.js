@@ -23,6 +23,11 @@ app.get("/resume",function(req,res)
     fp=__dirname+"/frontend/html/resume.html"
     res.sendFile(fp);
 });
+app.get("/apple",function(req,res)
+{
+    fp=__dirname+"/frontend/html/applepage.html"
+    res.sendFile(fp);
+});
 app.listen(process.env.PORT||3000,function()
 {
     console.log("server started on port 3000 ");
