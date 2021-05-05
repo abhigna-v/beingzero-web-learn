@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script type="text/javascript" src="/js/slidebar.js"></script>
+    <link rel="stylesheet" href="/css/rangestyles.css">
+  </head>
+<body >
+  <h1 id=rgbval1>rgb( 0 , 0, 0 )</h1>
+  <div id="display" ></div>
+  <p></p>
+  <table cellspacing="100px" id="table1">
+    <tr>
+      <td>
+        <div>
+          <h3>Red</h3>
+          <input type="range" min="0" max="255" value="0" step="5" onchange="showValue1(this.value)" />
+          <p id="range1">0</p>
+        </div>
+      </td>
+      <td>
+        <div>
+          <h3>Green</h3>
+          <input type="range" min="0" max="255" value="0" step="5" onchange="showValue2(this.value)" />
+          <p id="range2">0</p>
+        </div>
+      </td>
+      <td>
+        <div>
+          <h3>Blue</h3>
+          <input type="range" min="0" max="255" value="0" step="5" onchange="showValue3(this.value)" />
+          <p id="range3">0</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

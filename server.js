@@ -23,6 +23,11 @@ app.get("/resume",function(req,res)
     fp=__dirname+"/frontend/html/resume.html"
     res.sendFile(fp);
 });
+app.get("/colors",function(req,res)
+{
+    fp=__dirname+"/frontend/html/slidebarColors.html"
+    res.sendFile(fp);
+});
 app.get("/apple",function(req,res)
 {
     fp=__dirname+"/frontend/html/applepage.html"
