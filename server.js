@@ -14,10 +14,6 @@ app.get("/search",function(req,res)
 {
     res.redirect('https://www.google.com/');
 });
-app.get("/login",function(req,res)
-{
-    res.send("login successful");
-});
 app.get("/resume",function(req,res)
 {
     fp=__dirname+"/frontend/html/resume.html"
@@ -31,6 +27,16 @@ app.get("/colors",function(req,res)
 app.get("/apple",function(req,res)
 {
     fp=__dirname+"/frontend/html/applepage.html"
+    res.sendFile(fp);
+});
+app.get("/login",function(req,res)
+{
+    fp=__dirname+"/frontend/html/loginPage.html"
+    res.sendFile(fp);
+});
+app.get("/register",function(req,res)
+{
+    fp=__dirname+"/frontend/html/registerPage.html"
     res.sendFile(fp);
 });
 app.listen(process.env.PORT||3000,function()

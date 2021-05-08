@@ -1,0 +1,33 @@
+
+.form1
+{
+    padding-bottom: 20px;
+}
+.btn1
+{
+    color: white;
+    background-color:orchid;
+    border: lightcoral;
+    height: 30px;
+    width: 100px;
+    border-radius: .5cm;
+}
+.loginarea
+{
+    background-color: cyan;
+    width: 40%;
+    height: 70%;
+    margin-left: 30%;
+    margin-top: 10%;
+    display: block;
+    padding: 2%;
+    border-radius: .5cm;
+}
+
+.text
+{
+    box-sizing:content-box;
+    width: 200px;
+    height: 20px;
+    border:purple;
+}
