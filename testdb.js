@@ -16,4 +16,4 @@ courselib.createcourse({id : 1,name: 'competetive programming',articles:44},func
 })
 courselib.getall(function(course){
     console.log(course);
-})
+});

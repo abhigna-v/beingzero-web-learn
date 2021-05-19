@@ -1,6 +1,7 @@
 
 const express=require('express');
 const app=express();
+const path = require('path');
 const mongoose =require ('mongoose');
 const courselib =require('./backend/lib/courselib');
 // var password=process.env.MONGO_atlas_password;
@@ -20,6 +21,13 @@ var connectionString="mongodb+srv://abhi:"+password+"@cluster0.hhb8k.mongodb.net
 mongoose.connect(connectionString,{useNewUrlParser: true,useUnifiedTopology: true});
 mongoose.connection.on('connected',function(){
     console.log('Database connected');
+});
+mongoose.connection.on('error', function (error) {
+    console.error('Error in MongoDb connection: ' + error);
+});
+    
+mongoose.connection.on('disconnected', function () {
+    console.log('MongoDB disconnected!');
 });
 //dbconnect.connect();
 app.get("/",function(req,res)
