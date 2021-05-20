@@ -83,8 +83,10 @@ function addRow(obj) {
                    <td>
                      <button class="del btn btn-sm btn-danger" data-testid=${obj.id} id="${obj.id}">Delete</button>
                      <button class="btn btn-sm btn-info" disabled data-testid="${obj.id}"  id="save-${obj.id}">Save</button>
+
                      <button class="btn btn-sm btn-danger hidden" data-testid="${obj.id}"  id="cancel-${obj.id}">Cancel</button>
                      <button class="btn btn-sm btn-primary hidden" data-testid="${obj.id}"  id="confirm-${obj.id}">Confirm</button>
+
                    </td>
                </tr>`
     $('#tests-table').append(row)

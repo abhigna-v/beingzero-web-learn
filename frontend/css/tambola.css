@@ -1,0 +1,32 @@
+.div1
+{
+    text-align: center;
+    font-size:2cm;
+    height:100px;
+    background-color: cornsilk;
+}
+.div2
+{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.btn
+{
+    margin-top: 20px;
+    margin-left: 43%;
+}
+
+table td
+{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+    empty-cells: show;
+}
+td{
+    text-align: center;
+    height: 60px;
+    width: 90px;
+    color:khaki;
+}

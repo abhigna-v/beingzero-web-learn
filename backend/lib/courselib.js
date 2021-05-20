@@ -23,6 +23,7 @@ module.exports.addnewone = function(req,res)
 }
 module.exports.deleteone = function(req,res)
 {
+   // console.log(req);
     var id =req.params.idd;
     var idd;
     var obj = courseModel.find({id: id},function(err,obj){
@@ -42,19 +43,22 @@ module.exports.deleteone = function(req,res)
 
 module.exports.update = function(req,res)
 {
+   // console.log(req);
     var id =req.params.idd;
     var idd;
     var obj = courseModel.find({id: id},function(err,obj){
     
     courseModel.findByIdAndUpdate(obj[0]._id, {articles: req.body.articles},
      function (err, docs) {
-        if (err){
-            console.log(err)
-        }
-        else{
-            console.log("Updated User : ", docs);
-        }
-    });
-    });
+    if (err){
+console.log(err)
+}
+else{
+console.log("Updated User : ", docs);
+}
+});
+    })
 }
    
+
+
